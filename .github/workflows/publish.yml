@@ -1,19 +1,10 @@
 name: Publish Package to npmjs
 on:
   release:
-    types: [created,published]
+    types: [ created ]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      # Setup .npmrc file to publish to npm
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '14.x'
-          registry-url: 'https://registry.npmjs.org'
-      - run: npm install
       # This already includes a build step, but we can also be more explicit if we want.
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: echo 1;
