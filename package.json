@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-contentstack-testing",
-  "version": "3.1.7",
+  "version": "3.1.8",
   "description": "Gatsby source plugin for building websites using Contentstack as a data source",
   "scripts": {
     "prepublish": "npm run build",
@@ -12,8 +12,7 @@
   },
   "main": "gatsby-node.js",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/contentstack/gatsby-source-contentstack"
+    "type": "git"
   },
   "keywords": [
     "gatsby",
