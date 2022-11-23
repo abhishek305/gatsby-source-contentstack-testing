@@ -1,0 +1,11 @@
+#src
+src
+#cache
+.cache/
+#package-lock
+.package-lock.json
+# Logs
+logs
+*.log
+
+
